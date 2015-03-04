@@ -10,6 +10,16 @@
   <%= @project.description %>
 </p>
 
+<ul>
+<% @project.users.each do |p| %>
+  <li>
+    <%= p.email %>
+  </li>
+<% end %>
+</ul>
+<br>
+  <%= link_to 'Collaborate', new_project_access_path(@project)%>
+<br>
 
 <%= link_to 'Edit', edit_project_path(@project) %> |
 <%= link_to 'Back', projects_path %>
