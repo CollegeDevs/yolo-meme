@@ -44,7 +44,7 @@ gem 'gravtastic'
 
 gem 'newrelic_rpm'
 #intercom for users
-gem 'intercom-rails'
+#gem 'intercom-rails'
 
 #active_admin
 #gem 'activeadmin', github: 'activeadmin'
