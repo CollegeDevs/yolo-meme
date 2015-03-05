@@ -66,6 +66,11 @@ group :production, :development do
 end
 
 gem 'figaro'
+#gems for markdown
+gem 'github-markdown', '~> 0.6.8'
+gem 'html-pipeline', '~> 1.11.0'
+gem 'gemoji', '~> 2.1.0'
+gem 'sanitize', '~> 3.1.2'
 
 # Use unicorn as the app server
 # gem 'unicorn'

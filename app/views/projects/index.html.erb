@@ -13,7 +13,7 @@
     <% @projects.each do |project| %>
       <tr>
         <td><%= project.name %></td>
-        <td><%= project.description %></td>
+        <td><%= markdownify project.description %></td>
         <td><% project.categories.each do |pc| %>
             <%= pc.name %>
           <% end %></td>
